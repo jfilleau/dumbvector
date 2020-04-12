@@ -21,7 +21,7 @@ public:
 
     // This one lets you make a vector of a certain size.
     // All elements are default constructed, but then assigned value
-    // dumb::vector v(10, 1000); // 10 ints all set to value 1000
+    // dumbestvector v(10, 1000); // 10 ints all set to value 1000
     dumbestvector(unsigned int count, const value_type& value)
     {
         data_ = new value_type[count];
