@@ -1,7 +1,7 @@
 # dumb::vector
 >I'm not allowed to use std::vector!
 
-the student on lamented in the comments of their stackoverflow question. Have no fear, this isn't `std::vector`. It's `dumb::vector`. Totally different.
+the student lamented in the comments of their stackoverflow question. Have no fear, this isn't `std::vector`. It's `dumb::vector`. Totally different.
 
 `dumb::vector` was made with the design goal of providing a memory management container to students when they are forbidden from using `std::vector`. It was designed with the subgoal of reducing the cognitive load a new student to C++ would endure while juggling learning a a new language and learning about memory management. That means a lot of places you'd normally see move operations, `noexcept`, `std::size_t`, etc don't have those (if you don't know what those things are you can ignore them).
 
