@@ -79,7 +79,7 @@ Okay, yes, I have an `initializer_list` constructor. Sue me. I want users to be 
 ```
 dumb::vector dvec = {1, 1, 2, 3, 5, 8, 13};
 ```
-since this is a common way to initialize arrays. I think the `initializor_list` is the most confusing part for someone new to the language. I might be talked out of having it in `dumb::vector`, but I currently think the benefits outweigh the costs. If you don't understand `initializer_list`s, remove this constructor from your code.
+since this is a common way to initialize arrays. I think the `initializer_list` is the most confusing part for someone new to the language. I might be talked out of having it in `dumb::vector`, but I currently think the benefits outweigh the costs. If you don't understand `initializer_list`s, remove this constructor from your code.
 
 ### But you're using a namespace?
 Okay, yes, this one is just because I really like the idea of a namespace called "dumb". In my defense, `dumbestvector` is not encapsulated in a namespace.
