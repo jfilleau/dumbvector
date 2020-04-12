@@ -1,4 +1,4 @@
-#ifndef DUMBESET_VECTOR_H
+#ifndef DUMBEST_VECTOR_H
 #define DUMBEST_VECTOR_H
 
 /* dumbestvector
