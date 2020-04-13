@@ -90,7 +90,7 @@ int main(int argc, char** argv)
         // now we can get the remaining numbers
         // dumb::vector::reserve is optional (but recommended if bulk-adding):
         vec.reserve(new_size); // increases capacity to new_size
-        for (unsigned int i = vec.size(); i < n * 2; ++i)
+        for (unsigned int i = vec.size(); i < new_size; ++i)
         {
             int x;
             std::cin >> x;
