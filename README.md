@@ -5,7 +5,7 @@
 1. [Warning](#warning)
 1. [Getting started](#getting_started)
     * [`dumbestvector`](#dumbestvector)
-    * [`dumb::vector`](#dumbvector)
+    * [`dumb::vector`](#dumbvector-for-basic-one-file-projects)
 1. [Multi-file projects](#multi_file)
 1. [`dumb::vector`s of multiple types](#two_dumbvectors)
 1. [Why?](#why)
@@ -161,8 +161,6 @@ insertion_sort(dv.data(), dv.size());
 ```
 
 A `dumbestvector` **CANNOT** by default add new elements, remove elements, or iterate through elements (using `begin()` and `end()`). If you need this functionality, add it from `dumb::vector` or just use `dumb::vector`.
-
-<a name="dumbvetor" />
 
 ### `dumb::vector` For basic one-file projects
 
